@@ -53,6 +53,7 @@
 }
 
 .right-side {
+    background-image: url(/assets/img/corner.jpg);
     background-color: #f4f4f4;
     padding: 20px;
     width: 50%;
