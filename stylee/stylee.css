@@ -1,6 +1,4 @@
-p{
-    font-style: italic;
-}
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -30,6 +28,25 @@ p{
     align-items: center;
     text-align: center;
 }
+/* stylee/stylee.css */
+.left-side {
+    background-image: url("/assets/img/11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    position: relative; /* Add this */
+}
+
+/* stylee/stylee.css */
+.left-side p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-style: italic; /* Add this */
+}
+
+
 
 .social-icons {
     margin-top: 20px;
